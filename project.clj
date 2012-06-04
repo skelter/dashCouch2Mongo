@@ -2,4 +2,5 @@
   :description "Pull dash values from couchdb and push them to a dash document in mongodb"
   :dependencies [[org.clojure/clojure "1.3.0"]
 		 [com.ashafa/clutch "0.4.0-SNAPSHOT"]
-		 [congomongo "0.1.9"]])
+		 [congomongo "0.1.9"]]
+  :main couch2mongo.core )
