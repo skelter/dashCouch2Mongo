@@ -3,4 +3,5 @@
   :dependencies [[org.clojure/clojure "1.3.0"]
 		 [com.ashafa/clutch "0.4.0-SNAPSHOT"]
 		 [congomongo "0.1.9"]]
+  :dev-dependencies [[lein-marginalia "0.7.0"]]
   :main couch2mongo.core )
